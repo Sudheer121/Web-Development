@@ -1,0 +1,132 @@
+body {background-color:#dab3f2 !important;}
+/*body{
+	background-image: url(https://textureshot.com/wp-content/uploads/2018/11/Best-45-Web-Developer-Background-on-HipWallpaper-Developer.jpg);
+}*/
+#l{background-color:#dab3f2 !important;}
+#m{background-color:#c6651f !important;}
+#n{background-color:#558c78 !important;}
+#k{max-width: 35rem !important;}
+.navbar-custom {
+    background-color: #ff5500;
+}
+.btn-extral {
+    padding: 10px 20px !important;
+    font-size: 25px !important;
+    border-radius: 10px !important;
+}
+.btn-sudheer {
+    padding: 10px 20px;
+    font-size: 50px   !important;
+    border-radius: 20px;
+}
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  font-family: 'Montserrat';
+  background-color: #59ed4b !important;
+}
+#papa {
+  border-radius: 50% !important;
+  height: 250px;
+  width: 200px;
+}
+/*putting a white line of 15 rem*/
+hr.star-light,
+hr.star-dark {
+  max-width: 15rem;
+  padding: 0;
+  text-align: center;
+  border: none;
+  border-top: solid 0.25rem;
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+  /*margin-left: auto;
+  margin-right: auto;*/
+}
+/*putting a star in between*/
+hr.star-light:after,
+hr.star-dark:after {
+  position: relative;
+  top: -.8em;
+  display: inline-block;
+ /* padding: 3 3 em;*/
+ /*content: '\f005';*/
+  content: '\f005';
+  font-family: "Font Awesome 5 Free";
+  font-weight: 500;
+  font-size: 2em;
+}
+
+hr.star-light {
+  border-color: #fff;
+}
+
+hr.star-light:after {
+  color: #fff;
+  background-color: #558c78;/*that green background given to star*/
+}
+hr.star-dark {
+  border-color: #2C3E50;
+}
+
+hr.star-dark:after {
+  color: #2C3E50;
+  background-color: #dab3f2; /*that pink background given to star*/
+}
+@keyframes hi {
+  15%   {background-color: red;}
+  15%{background-color: orange;} 
+  15%{background-color: yellow;}
+  15%  {background-color: green;}
+  10% {background-color: blue;}
+  10% {background-color: darkblue;}
+  10% {background-color: indigo;}
+  10% {background-color: violet;}
+}
+@keyframes bi {
+  25% {background-color: lightgrey;}
+  25%{background-color: darkgrey;}
+  25% {background-color: lightgrey;}
+  25%{background-color: darkgrey;}
+  
+}
+@keyframes sud {
+  10% {background-color:#558c78;}
+  10%{background-color:#558c77;}
+  10%{background-color:#558c76;}
+  10%{background-color:#558c75;}
+  10%{background-color:#558c74;}
+  10%{background-color:#558c70;}
+  10%{background-color:#558c68;}
+  10%{background-color:#558c66;}
+  10%{background-color:#558c64;}
+  10%{background-color:#558c62;}
+}
+#lala
+{
+
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation-name: hi!important;
+  animation: 4s infinite;
+ 
+
+}
+#dada
+{
+
+ 
+  animation-name: bi!important;
+  animation: 4s infinite;
+
+}
+#pala
+{
+
+ 
+  animation-name: sud!important;
+  animation: 4s infinite;
+
+}
